@@ -1,0 +1,44 @@
+section#lateral {
+    border: 2px red solid;
+    width: 20%;
+    height: 400px;
+    float: left;
+}
+body {
+    
+}
+img.uno {
+    width: 80%;
+    height: 400px;
+    position: relative;
+    bottom: 400px;
+}
+img.imagenes {
+    height: 300px;
+}
+p {
+    text-align: right;
+}
+section.image2 {
+    width: 20%;
+   position: relative;
+   left: 75%;
+   height: 400px;
+}
+section.noticia {
+    width: 50%;
+    position: relative;
+  float: left;
+}
+img.dos {
+    width: 30%;
+    height: 500px;
+    position: relative ;
+    margin-right: 0%;
+   left: 40%;
+   top: 0%;
+}
+p{
+ width: 100%;
+ text-align: center;
+}
