@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alta de Producto</title>
+    <link rel="stylesheet" href="./estilos/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <p id="parrafoLogo">
+        <img src="./img/logoZara.svg" alt="Logo Zara Rebajas" />
+      </p>
+      <div id="cabeceraDcha">
+        <h1>REBAJAS</h1>
+        <nav>
+          <span>Nuevo Producto</span>
+          <span>Modificar Producto</span>
+          <span>Eliminar Producto</span>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <video autoplay loop id="videoVertical">
+        <source src="./videos/vertical.mp4" type="video/mp4">
+        <source src="./videos/vertical.webm" type="video/webm">
+      </video>
+      <form action="./src/confirmacion.html">
+        <fieldset>
+          <legend>Nuevo Producto</legend>
+          <label for="categoria">Categoría</label>
+          <select name="categoria" id="categoria" required>
+            <option value="VM">Vestido/Mono</option>
+            <option value="A">Abrigo</option>
+            <option value="B">Blazer</option>
+            <option value="P">Pantalón</option>
+            <option value="F">Falda</option>
+          </select>
+          <label for="cod">Código de producto</label>
+          <input type="text" name="cod" id="cod" pattern="[A-Za-z]{3}\d{5}([\-:][b-t])?" required>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" maxlength="15">
+          <label for="estilo">Estilo</label>
+          <input type="text" name="estilo" id="estilo" list="listaEstilos" required>
+          <datalist id="listaEstilos">
+             <option>casual</option>
+             <option>sporty</option>
+             <option>clásico</option>
+             <option>boho</option> 
+          </datalist>
+          <label for="precio">Precio</label>
+          <input type="text" name="precio" id="precio" pattern="\d{1,3}(,\d{1,2})?" requiered>
+          <label for="color">Color</label>
+          <input type="color" name="color" id="color">
+          <label for="foto">Foto</label>
+          <input type="file" name="foto" id="foto" required>
+          <input type="submit" value="Dar de Alta">
+        </fieldset>
+      </form>
+      <video src="./videos/modelo.mp4" id="videoHorizontal" autoplay loop> Silueta de modelo caminando</video>
+    </main>
+
+    <footer>
+        <p> Póngase en contacto con nosotros en la dirección atencionTienda@inditex.es</p>
+    </footer>
+  </body>
+</html>

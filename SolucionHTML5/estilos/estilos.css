@@ -1,0 +1,80 @@
+/** Estilos para la sección de cabecera */
+#parrafoLogo {
+    margin-top: 0px;
+    margin-left: 2%;
+    width: 32%;
+    height: 175px;
+    float: left;
+}
+
+#cabeceraDcha {
+    margin-top: 0px;
+    margin-right: 2%;
+    overflow: hidden;
+    width: 62%;
+    height: 175px;
+    float: right;
+    background-color: yellow;
+}
+h1{
+    text-align: center;
+}
+nav {
+    width: 75%;
+    float: right;
+    margin-top: 65px;
+}
+span {
+    display: inline-block;
+    width: 30%;
+    margin: auto;
+}
+
+main {
+    clear: both;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+
+/** Estilos para el video vertical */
+#videoVertical {
+    float: left;
+    width: 25%;
+}
+
+/** Estilos para el formulario de alta */
+form, #videoHorizontal {
+    float: right;
+    width: 55%;
+    height: 275px;
+    margin-top: 25px;
+}
+
+fieldset {
+    width: 65%;
+    margin: auto;
+}
+
+label {
+    display: inline-block;
+    width: 25%;
+}
+
+input,select {
+    width: 70%;
+    margin: 5px auto;
+}
+
+input[type=submit] {
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+
+/** Estilos para el pie de página */
+footer {
+    clear: both;
+    margin-top: 55px;
+    text-align: center;
+}

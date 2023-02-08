@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+#Primer {
+    border-color: cadetblue;
+    border-style: solid;
+    border: yellow solid 3px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 2%;
+}
+#lista {
+    margin: auto;
+    border: green;
+}
+#pie {
+text-align: center;
+}
+ol {
+    background-color: blue;
+    padding: 20%;
+   
+}
+li {
+   width: 40%;
+   margin: auto; 
+}
+#lista {
+margin: auto;
+}
+body {
+    width: 50%;
+    margin: auto;
+    background-image: url(../imagenes/CSS.jpg);
+
+background-position: 50% right bottom;
+}
+section.imagen2 {
+    width: 50%;
+}
+body > section {
+background-image: url(../imagenes/CSS.jpg);
+}
+img{
+    position: relative;
+    top: 50em;
+    background-attachment: fixed;
+}
