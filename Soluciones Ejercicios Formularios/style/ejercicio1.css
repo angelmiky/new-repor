@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 40%;
+    border: 2px blue solid;
+    margin: auto;
+    text-align: center;
+}
+
+form * {
+    padding: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}

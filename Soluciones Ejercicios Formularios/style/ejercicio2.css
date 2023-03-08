@@ -1,0 +1,9 @@
+form {
+    width: 40%;
+    border: 2px red dotted;
+    margin: auto;
+}
+
+form * {
+    margin: 10px;
+}

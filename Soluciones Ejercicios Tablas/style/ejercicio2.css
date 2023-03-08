@@ -1,0 +1,89 @@
+div {
+    height: 350px;
+    overflow: hidden;
+}
+
+#contenedorTabla1 {
+    background-color: rgb(253, 253, 235);
+    width: 50%;
+    float: left;
+}
+
+#contenedorTabla2 {
+    background-color: rgb(239, 253, 253);
+    width: 50%;
+    float: right;
+}
+
+#contenedorTabla3 {
+    background-color: rgb(239, 253, 253);
+    width: 50%;
+    float: left;
+}
+
+#contenedorTabla4 {
+    background-color: rgb(253, 253, 235);
+    width: 50%;
+    float: right;
+}
+
+table {
+    width: 70%;
+    border: 3px fuchsia solid;
+    margin: auto;
+    text-align: center;
+}
+
+tr,
+th,
+td {
+    border: 3px fuchsia solid;
+    padding: 2%;
+}
+
+#tabla2 {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+#tabla2 th {
+    width: 25%;
+}
+
+#tabla2 caption {
+    color: fuchsia;
+}
+
+#tabla3 {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+#filaPrincipal {
+    font-weight: bold;
+}
+
+.par {
+    background-color: coral;
+}
+
+.impar {
+    background-color: gold;
+}
+
+#tabla4 thead td {
+    background-color: #fb046e;
+    font-weight: bold;
+}
+
+#tabla4 td {
+    border: 1px solid black;
+}
+
+#tabla4y tr:nth-child(even) {
+    background-color: #fceef4;
+}
+
+#tabla4 tr:nth-child(odd) {
+    background-color: #fac9de;
+}

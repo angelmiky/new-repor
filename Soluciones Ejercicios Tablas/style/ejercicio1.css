@@ -1,0 +1,23 @@
+table {
+    width: 50%;
+    border: 2px black solid;
+    table-layout: fixed;
+}
+
+th {
+    border: 2px black solid;
+    width: 33%;
+}
+
+td,
+tr {
+    border: 2px black solid;
+}
+
+.textoInferior {
+    vertical-align: bottom;
+}
+
+.textoSuperior {
+    vertical-align: top;
+}

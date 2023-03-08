@@ -1,0 +1,16 @@
+table {
+    width: 80%;
+    margin: auto;
+}
+
+table,
+td,
+th,
+tr {
+    border: 2px solid blue;
+    text-align: center;
+}
+
+tr {
+    height: 4em;
+}

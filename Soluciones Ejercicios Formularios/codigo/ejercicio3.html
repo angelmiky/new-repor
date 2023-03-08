@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3 Formularios</title>
+    <link rel="stylesheet" href="../style/ejercicio3.css">
+</head>
+
+<body>
+    <h1> El señor de los anillos </h1>
+    <form action="#" method="post">
+        <div id="datosPersonales">
+            <label for="nombre">Nombre:</label> <input type="text" name="nombre" id="nombre" />
+            <label for="telefono">Teléfono:</label> <input type="tel" name="telefono" id="telefono" />
+        </div>
+        <div id="opinion">
+            <span>Con cual de los personajes de la película te identificas: </span><br>
+            <label for="frodo">Frodo Bolsón</label> <input type="checkbox" name="frodo" id="frodo" value="frodo">
+            <label for="aragorn">Aragorn</label> <input type="checkbox" name="aragorn" id="aragorn" value="aragorn">
+            <label for="sam">Samsagaz</label> <input type="checkbox" name="sam" id="sam" value="sam">
+            <label for="gollum">Gollum</label> <input type="checkbox" name="gollum" id="gollum" value="gollum">
+            <br>
+            <span>La película te ha parecido:</span> <br>
+            <label for="excelente">Excelente</label> <input type="radio" name="satisfaction" id="excelente" value="excelente">
+            <label for="buena">Buena</label> <input type="radio" name="satisfaction" id="buena" value="buena">
+            <label for="normal">Normalilla</label> <input type="radio" name="satisfaction" id="normal" value="normal">
+            <label for="mala">Mala</label> <input type="radio" name="satisfaction" id="mala" value="mala">
+            <label for="pesima">Pésima</label> <input type="radio" name="satisfaction" id="pesima" value="pesima">
+        </div>
+        <div id="boton">
+            <input type="submit" value="Enviar" />
+        </div>
+
+    </form>
+</body>
+
+</html>

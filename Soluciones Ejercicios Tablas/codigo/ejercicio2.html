@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/ejercicio2.css">
+    <title>Ejercicio 2 tablas</title>
+</head>
+
+<body>
+    <div id="contenedorTabla1">
+        <h1>Tabla1</h1>
+        <table>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+                <td rowspan="3">D,H,L</td>
+            </tr>
+            <tr>
+                <td rowspan="2">E,I</td>
+                <td colspan="2">F,G</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td rowspan="2">K,O</td>
+            </tr>
+            <tr>
+                <td colspan="2">M,N</td>
+                <td>P</td>
+            </tr>
+        </table>
+    </div>
+    <div id="contenedorTabla2">
+        <h1>Tabla2</h1>
+        <table id="tabla2">
+            <caption>Este es el caption de la tabla</caption>
+            <thead>
+                <tr>
+                    <th>Alumno</th>
+                    <th>Pendientes</th>
+                    <th>Nº</th>
+                    <th>Recuperación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Elena</td>
+                    <td>Si</td>
+                    <td>1</td>
+                    <td>Febrero</td>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>No</td>
+                    <td>--</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Luis</td>
+                    <td>Si</td>
+                    <td>3</td>
+                    <td>Septiembre</td>
+                </tr>
+                <tr>
+                    <td>Roberto</td>
+                    <td>No</td>
+                    <td>--</td>
+                    <td>--</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="contenedorTabla3">
+        <h1>Tabla3</h1>
+        <table id="tabla3">
+            <colgroup span="1"></colgroup>
+            <colgroup span="1" class="par"></colgroup>
+            <colgroup span="1" class="impar"></colgroup>
+            <colgroup span="1" class="par"></colgroup>
+            <colgroup span="1" class="impar"></colgroup>
+            <colgroup span="1" class="par"></colgroup>
+            <tbody>
+                <th colspan="6">Notas de la 1ª evalaución</th>
+                </tr>
+                <tr id="filaPrincipal">
+                    <td>Alumno</td>
+                    <td>LLMM</td>
+                    <td>EED</td>
+                    <td>SSII</td>
+                    <td>BBDD</td>
+                    <td>PROGR.</td>
+                </tr>
+                <tr>
+                    <td>David</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Ricardo</td>
+                    <td>9</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Juan</td>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Antonio</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>2</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <div id="contenedorTabla4">
+        <h1>Tabla4</h1>
+        <table id="tabla4">
+            <thead>
+                <tr>
+                    <td>País</td>
+                    <td>Capital</td>
+                    <td>Idioma oficial</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Argentina</td>
+                    <td>Buenos Aires</td>
+                    <td>Español</td>
+                </tr>
+                <tr>
+                    <td>Bolivia</td>
+                    <td>Sucre</td>
+                    <td>Español, Quechua, Aymara</td>
+                </tr>
+                <tr>
+                    <td>Brasil</td>
+                    <td>Brasília</td>
+                    <td>Portugués</td>
+                </tr>
+                <tr>
+                    <td>Chile</td>
+                    <td>Santiago</td>
+                    <td>Español</td>
+                </tr>
+                <tr>
+                    <td>Colombia</td>
+                    <td>Bogotá</td>
+                    <td>Español</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
